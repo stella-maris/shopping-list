@@ -6,15 +6,24 @@ class ShoppingList extends Component {
     constructor (props) {
         super(props);
         this.state = {
-            item: ''
+            item: '',
+            shoppingList: []
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
 
+
     handleSubmit(e) {
         e.preventDefault();
-        console.log("Submit", this.state);
+
+        if (this.state.item !== ""){
+            console.log("Submit", this.state.item);
+            this.setState({
+                shoppingList: [...this.state.shoppingList, this.state.item]
+            });
+        }
+        console.log("list:", this.state.shoppingList);
     }
 
     handleChange(e) {
@@ -32,7 +41,15 @@ class ShoppingList extends Component {
                     />
                     <button type="submit">Submit</button>
                 </form>
-                <ListData />
+                <ul style={{listStyleType: "none", textAlign:"left"}}>
+                    {this.state.shoppingList.map((item, index) => {
+                            return (
+                                <li key={item + index}>{item}</li>
+                            )
+                        }
+
+                    )}
+                </ul>
             </div>
         );
     }
