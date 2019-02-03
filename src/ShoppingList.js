@@ -11,17 +11,22 @@ class ShoppingList extends Component {
         }
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleClick = this.handleClick.bind(this);
     }
 
-
+// Event that handles input of new item
     handleSubmit(e) {
         e.preventDefault();
-
         if (this.state.item !== ""){
+            console.log(e.target);
             console.log("Submit", this.state.item);
             this.setState({
-                shoppingList: [...this.state.shoppingList, this.state.item]
+                shoppingList: [...this.state.shoppingList, this.state.item],
+                item: ''
             });
+            ;
+        } else {
+            alert("Please enter an item");
         }
         console.log("list:", this.state.shoppingList);
     }
@@ -29,6 +34,9 @@ class ShoppingList extends Component {
     handleChange(e) {
         this.setState({[e.target.name]: e.target.value});
     }
+
+    //Event that removes/deletes item from shoppingList array
+    handleClick(e){}
 
     render() {
         return (
