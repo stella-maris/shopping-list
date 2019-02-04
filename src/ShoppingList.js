@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ListData from './ListData';
 import './App.css';
 
 class ShoppingList extends Component {
@@ -8,7 +7,7 @@ class ShoppingList extends Component {
         this.state = {
             item: '',
             shoppingList: []
-        }
+        };
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleClick = this.handleClick.bind(this);
@@ -48,10 +47,11 @@ class ShoppingList extends Component {
                 <form onSubmit={this.handleSubmit}>
                     <input
                         name="item"
+                        placeholder="Enter item here..."
                         value={this.state.item}
                         onChange={this.handleChange}
                     />
-                    <button type="submit">Submit</button>
+                    <button type="submit">Add to shopping list</button>
                 </form>
                 <ul style={{listStyleType: "none", textAlign:"left"}}>
                     {this.state.shoppingList.map((item, index) => {
