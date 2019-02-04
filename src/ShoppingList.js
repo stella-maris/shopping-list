@@ -18,8 +18,6 @@ class ShoppingList extends Component {
     handleSubmit(e) {
         e.preventDefault();
         if (this.state.item !== ""){
-            console.log(e.target);
-            console.log("Submit", this.state.item);
             this.setState({
                 shoppingList: [...this.state.shoppingList, this.state.item],
                 item: ''
@@ -36,7 +34,10 @@ class ShoppingList extends Component {
     }
 
     //Event that removes/deletes item from shoppingList array
-    handleClick(e){}
+    handleClick(e){
+        e.preventDefault();
+        console.log('remove:', e.target.value);
+    }
 
     render() {
         return (
@@ -52,7 +53,7 @@ class ShoppingList extends Component {
                 <ul style={{listStyleType: "none", textAlign:"left"}}>
                     {this.state.shoppingList.map((item, index) => {
                             return (
-                                <li key={item + index}>{item}</li>
+                                <li key={item + index}>{item} <button onClick={this.handleClick} value={item}>Remove</button></li>
                             )
                         }
 
