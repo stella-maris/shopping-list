@@ -26,7 +26,7 @@ class ShoppingList extends Component {
         } else {
             alert("Please enter an item");
         }
-        console.log("list:", this.state.shoppingList);
+        //console.log("list:", this.state.shoppingList);
     }
 
     handleChange(e) {
@@ -39,7 +39,7 @@ class ShoppingList extends Component {
         this.setState({
             shoppingList: this.state.shoppingList.filter(item => item !== e.target.value)
         });
-        console.log(this.state.shoppingList);
+        //console.log(this.state.shoppingList);
     }
 
     render() {
