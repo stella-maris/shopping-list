@@ -36,7 +36,10 @@ class ShoppingList extends Component {
     //Event that removes/deletes item from shoppingList array
     handleClick(e){
         e.preventDefault();
-        console.log('remove:', e.target.value);
+        this.setState({
+            shoppingList: this.state.shoppingList.filter(item => item !== e.target.value)
+        });
+        console.log(this.state.shoppingList);
     }
 
     render() {
