@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f8553098-079c-4ac2-84a9-a04af3ffd67e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ShoppingList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/ShoppingList.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -40,12 +42,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="js" value="1995" />
+          <entry key="js" value="2102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1995" />
+          <entry key="JavaScript" value="2102" />
         </counts>
       </usages-collector>
     </session>
@@ -54,11 +56,11 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="66">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="161">
+                  <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -66,7 +68,7 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/ListData.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="322">
@@ -82,8 +84,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ShoppingList.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-384">
-                  <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+                <state relative-caret-position="294">
+                  <caret line="60" column="61" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -101,8 +103,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/ListData.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/ShoppingList.js" />
       </list>
     </option>
@@ -196,12 +198,12 @@
       <updated>1549225811267</updated>
       <workItem from="1549225813605" duration="5264000" />
       <workItem from="1549233927091" duration="407000" />
-      <workItem from="1549234534537" duration="3689000" />
+      <workItem from="1549234534537" duration="4056000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9360000" />
+    <option name="totallyTimeSpent" value="9727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="813" extended-state="6" />
@@ -254,16 +256,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ListData.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -271,10 +263,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ShoppingList.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        <state relative-caret-position="294">
+          <caret line="60" column="61" selection-start-line="60" selection-start-column="61" selection-end-line="60" selection-end-column="61" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>

@@ -56,7 +56,10 @@ class ShoppingList extends Component {
                 <ul style={{listStyleType: "none", textAlign:"left"}}>
                     {this.state.shoppingList.map((item, index) => {
                             return (
-                                <li key={item + index}>{item} <button onClick={this.handleClick} value={item}>Remove</button></li>
+                                <li
+                                    key={item + index}
+                                    style={{paddingBottom: 15}}
+                                >{item} <button onClick={this.handleClick} value={item}>Remove</button></li>
                             )
                         }
 
